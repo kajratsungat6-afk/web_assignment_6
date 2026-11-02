@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task 1 – Selector Detective</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+  <script src="party.js" defer></script>
+  <script src="task1.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="nav" aria-label="Main navigation">
+      <span class="brand">🎂 AITU Party · Task 1</span>
+      <ul>
+        <li><a href="task2.html">Task 2: The party in motion</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <h1>Selector Detective</h1>
+    <p class="lead">Press a case button. The page is built again, the found guests are highlighted and jump once.</p>
+    <div id="cases" class="cases"></div>
+
+    <p id="result" class="msg" role="status" aria-live="polite"></p>
+    <div id="house" class="house"></div>
+  </main>
+</body>
+</html>
